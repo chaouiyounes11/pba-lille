@@ -95,8 +95,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #1D1D1E;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
 
+header figure img {
+  width: 20%;
+}
+
+.icones {
+  display: flex;
+width: 24%;
+justify-content: space-around;
+align-items: center;
+}
+
+.icones .fa {
+  color: white;
+  font-size: 29px;
+}
+
+.icones .fa:hover {
+  color: #D8383F;
+}
 
 
 
